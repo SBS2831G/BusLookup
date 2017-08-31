@@ -34,14 +34,13 @@ exports.byRego = (req, res) => {
                 bus.cssClass = operatorMap[bus.operator.operator];
 
                 var diff = new Date(bus.busData.deregDate - new Date());
-                console.log(bus.registration.prefix + '  ' + (diff.getFullYear() - 1970));
 
                 if (bus.busData.deregDate - new Date() > 0) {
                     bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth() - 1) + ' months ' + (diff.getUTCDate() - 1) + ' days'
                 } else {
                     bus.timeToDereg = -(diff.getFullYear() - 1970 + 1) + ' years ' + (12 - diff.getUTCMonth()) + ' months ' + (31 - diff.getUTCDate()) + ' days ago'
                 }
-                
+
                 return bus;
             })
         });

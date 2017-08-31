@@ -89,6 +89,7 @@ input[type="checkbox"].busHide:checked + .bus-data {
     float: right;
     margin-left: auto;
     margin-right: calc((100vw + 100vh) * 0.01);
+    font-size: calc((100vw + 100vh) * 0.02);
 }
 
 .dereg-div {

@@ -1,0 +1,20 @@
+{
+  "name": "bus-lookup",
+  "version": "1.0.0",
+  "description": "A webapp for searching up bus numberplates",
+  "main": "index.js",
+  "author": "Eyeballcode",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "express": "^4.15.4",
+    "hsts": "^2.1.0",
+    "moment": "^2.18.1",
+    "momentjs": "^2.0.0",
+    "mongoose": "^4.11.9",
+    "pretty-seconds": "^0.2.1",
+    "pug": "^2.0.0-rc.3"
+  }
+}

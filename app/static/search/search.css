@@ -1,0 +1,139 @@
+#magnifying-glass {
+    height: calc((100vw + 100vh) * 0.02);
+    width: calc((100vw + 100vh) * 0.02);
+    margin-left: calc((100vw + 100vh) * 0.01)
+}
+
+#searchbar {
+    background-color: #0f0f0f;
+    width: 100vw;
+    height: calc((100vw + 100vh) * 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#regoInput {
+    height: calc((100vw + 100vh) * 0.03);
+    width: calc((100vw + 100vh) * 0.2);
+    border: none;
+    border-radius: calc((100vw + 100vh) * 0.01);
+    outline: none;
+    text-align: center;
+    font-size: calc((100vw + 100vh) * 0.023);
+    padding-bottom: calc((100vw + 100vh) * 0.003);
+    background-color: #e0e0e0;
+    appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.numberplate {
+    font-size: calc((100vw + 100vh) * 0.04);
+    color: #121212;
+}
+
+.bus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: calc((100vw + 100vh) * 0.003);
+    flex-direction: column;
+}
+
+label {
+    width: 100vw;
+    text-align: center;
+    user-select: none;
+}
+
+input[type="checkbox"].busHide:not(checked) + .bus-data {
+    display: none;
+}
+
+input[type="checkbox"].busHide:checked + .bus-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.data {
+    width: 100vw;
+    display: block;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    height: calc((100vw + 100vh) * 0.04);
+    line-height: calc((100vw + 100vh) * 0.037);
+}
+
+.data:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+.data span:nth-child(1) {
+    float: left;
+    mergin-right: auto;
+    margin-left: calc((100vw + 100vh) * 0.01);
+    font-size: calc((100vw + 100vh) * 0.02);
+}
+
+.data *:nth-child(2) {
+    float: right;
+    margin-left: auto;
+    margin-right: calc((100vw + 100vh) * 0.01);
+}
+
+.dereg-div {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.dereg-date {
+    font-size: calc((100vw + 100vh) * 0.018) !important;
+    line-height: calc((100vw + 100vh) * 0.028);
+    margin-right: 0 !important;
+}
+
+.timeToDereg {
+    font-size: calc((100vw + 100vh) * 0.01) !important;
+    line-height: calc((100vw + 100vh) * 0.003);
+    margin-right: 0 !important;
+}
+
+
+.smrt {
+    background-color: #b43535;
+}
+
+.sbst {
+    background-color: #a63cac;
+}
+
+.tts {
+    background-color: #4ebe45;
+}
+
+.gas {
+    background-color: #d7832c;
+}
+
+.tibs {
+    background-color: #d4ce24;
+}
+
+.sbs {
+    background-color: #512ed1;
+}
+
+.lta {
+    background-color: #e0e0e0;
+}

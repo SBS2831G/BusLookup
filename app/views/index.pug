@@ -1,0 +1,19 @@
+extends layout
+
+block head
+    title Bus Lookup - TransportSG
+
+block scripts
+    script(src='/static/search/search.js' async)
+
+block css
+    link(rel='stylesheet' href='/static/search/search.css')
+
+block header
+    img#magnifying-glass(src='/static/search/magnifying-glass.svg')
+    span#title Bus Lookup
+
+block content
+    div#searchbar
+        input(type='number')#regoInput
+    div#results

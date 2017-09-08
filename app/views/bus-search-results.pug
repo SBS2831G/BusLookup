@@ -22,9 +22,12 @@ for bus in buses
                 span=bus.fleet.batch
             div.data.dereg
                 span Deregistration
-                div.dereg-div
-                    span.dereg-date=bus.busData.deregDate.getUTCDate() + ' ' + months[bus.busData.deregDate.getUTCMonth()] + ' ' + bus.busData.deregDate.getFullYear()
-                    span.timeToDereg=bus.timeToDereg
+                if +bus.busData.deregDate === 0
+                    span Unknown
+                else
+                    div.dereg-div
+                        span.dereg-date=bus.busData.deregDate.getUTCDate() + ' ' + months[bus.busData.deregDate.getUTCMonth()] + ' ' + bus.busData.deregDate.getFullYear()
+                        span.timeToDereg=bus.timeToDereg
             div.data
                 span Gearbox
                 span=bus.busData.gearbox

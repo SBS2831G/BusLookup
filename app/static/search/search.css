@@ -110,6 +110,9 @@ input[type="checkbox"].busHide:checked + .bus-data {
     margin-right: 0 !important;
 }
 
+.bus.busData.model {
+    font-size: calc((100vw + 100vh) * 0.015);
+}
 
 .smrt {
     background-color: #b43535;

@@ -80,7 +80,7 @@ input[type="checkbox"].busHide:checked + .bus-data {
 
 .data span:nth-child(1) {
     float: left;
-    mergin-right: auto;
+    margin-right: auto;
     margin-left: calc((100vw + 100vh) * 0.01);
     font-size: calc((100vw + 100vh) * 0.02);
 }
@@ -89,7 +89,7 @@ input[type="checkbox"].busHide:checked + .bus-data {
     float: right;
     margin-left: auto;
     margin-right: calc((100vw + 100vh) * 0.01);
-    font-size: calc((100vw + 100vh) * 0.02);
+    font-size: calc((100vw + 100vh) * 0.016);
 }
 
 .dereg-div {
@@ -108,10 +108,6 @@ input[type="checkbox"].busHide:checked + .bus-data {
     font-size: calc((100vw + 100vh) * 0.01) !important;
     line-height: calc((100vw + 100vh) * 0.003);
     margin-right: 0 !important;
-}
-
-.model span:nth-child(2) {
-    font-size: calc((100vw + 100vh) * 0.015);
 }
 
 .smrt {

@@ -32,8 +32,7 @@ function search(req, res, searchPath) {
                 bus.cssClass = operatorMap[bus.operator.operator];
 
                 var diff = new Date(bus.busData.deregDate - new Date());
-
-                // if (+bus.busData.deregDate == -1) return bus;
+                if (+bus.busData.deregDate == 0) return bus;
                 if (bus.busData.deregDate - new Date() > 0) {
                     bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate() - 1) + ' days'
                 } else {

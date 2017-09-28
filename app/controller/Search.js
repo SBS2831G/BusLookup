@@ -19,14 +19,8 @@ var operatorMap = {
     'SMRT Buses': 'smrt'
 };
 
-function search(req, res, searchPath) {
-    if (!req.body.query) {
-        res.status(500).json({
-            error: 'No rego provided!'
-        });
-        return;
-    }
-    Bus.find(JSON.parse(`{"${searchPath}": "${req.body.query}"}`), (err, buses) => {
+function findAndReturn(req, res, rawJSON) {
+    Bus.find(rawJSON, (err, buses) => {
         res.render('bus-search-results', {
             buses: buses.map(bus => omit(bus._doc, '_id')).map(bus => {
                 bus.cssClass = operatorMap[bus.operator.operator];
@@ -46,10 +40,37 @@ function search(req, res, searchPath) {
     });
 }
 
+function search(req, res, searchPath) {
+    if (!req.body.query) {
+        res.status(500).json({
+            error: 'No rego provided!'
+        });
+        return;
+    }
+    findAndReturn(req, res, JSON.parse(`{"${searchPath}": "${req.body.query}"}`));
+}
+
 exports.byRego = (req, res) => {
     search(req, res, 'registration.number');
 };
 
 exports.byService = (req, res) => {
-    search(req, res, 'operator.permService');
+    if (!req.body.query) {
+        res.status(500).json({
+            error: 'No rego provided!'
+        });
+        return;
+    }
+    
+    if (!!req.body.query.match(/^\d{1,3}\w?$/)) {
+        search(req, res, 'operator.permService');
+    } else if (!!req.body.query.match(/^\w{4,5}$/)) {
+        search(req, res, 'operator.depot');
+    } else if (!!req.body.query.match(/^\w{4,5} \d{1,3}\w?$/)) {
+        var x = req.body.query.match(/(\w{4,5}) (\d{1,3}\w?)/);
+        findAndReturn(req, res, {
+            'operator.depot': x[1],
+            'operator.permService': x[2]
+        });
+    }
 }

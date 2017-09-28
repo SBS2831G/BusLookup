@@ -39,6 +39,7 @@ exports.byRego = (req, res) => {
                     bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate() - 1) + ' days'
                 } else {
                     bus.timeToDereg = (1969 - diff.getFullYear()) + ' years ' + (11 - diff.getUTCMonth()) + ' months ' + (30 - diff.getUTCDate()) + ' days ago'
+                    bus.operator.permService += ' (R)';
                 }
 
                 return bus;

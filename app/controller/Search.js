@@ -36,9 +36,9 @@ exports.byRego = (req, res) => {
                 var diff = new Date(bus.busData.deregDate - new Date());
 
                 if (bus.busData.deregDate - new Date() > 0) {
-                    bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth() - 1) + ' months ' + (diff.getUTCDate() - 1) + ' days'
+                    bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate() - 1) + ' days'
                 } else {
-                    bus.timeToDereg = -(diff.getFullYear() - 1970 + 1) + ' years ' + (12 - diff.getUTCMonth()) + ' months ' + (31 - diff.getUTCDate()) + ' days ago'
+                    bus.timeToDereg = (1969 - diff.getFullYear()) + ' years ' + (11 - diff.getUTCMonth()) + ' months ' + (30 - diff.getUTCDate()) + ' days ago'
                 }
 
                 return bus;

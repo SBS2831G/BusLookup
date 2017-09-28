@@ -26,15 +26,14 @@ function search(req, res, searchPath) {
         });
         return;
     }
-    Bus.find({
-        searchPath: req.body.query
-    }, (err, buses) => {
+    Bus.find(JSON.parse(`{"${searchPath}": "${req.body.query}"}`), (err, buses) => {
         res.render('bus-search-results', {
             buses: buses.map(bus => omit(bus._doc, '_id')).map(bus => {
                 bus.cssClass = operatorMap[bus.operator.operator];
 
                 var diff = new Date(bus.busData.deregDate - new Date());
 
+                // if (+bus.busData.deregDate == -1) return bus;
                 if (bus.busData.deregDate - new Date() > 0) {
                     bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate() - 1) + ' days'
                 } else {

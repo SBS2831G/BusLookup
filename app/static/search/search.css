@@ -19,7 +19,8 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-left: calc((100vw + 100vh) * 0.034);
+    text-align: center;
+    text-align-last: center;
     font-size: calc((100vw + 100vh) * 0.015);
 }
 

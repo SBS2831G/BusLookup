@@ -19,15 +19,15 @@ var operatorMap = {
     'SMRT Buses': 'smrt'
 };
 
-exports.byRego = (req, res) => {
-    if (!req.body.rego) {
+function search(req, res, searchPath) {
+    if (!req.body.query) {
         res.status(500).json({
             error: 'No rego provided!'
         });
         return;
     }
     Bus.find({
-        'registration.number': req.body.rego
+        searchPath: req.body.query
     }, (err, buses) => {
         res.render('bus-search-results', {
             buses: buses.map(bus => omit(bus._doc, '_id')).map(bus => {
@@ -46,4 +46,12 @@ exports.byRego = (req, res) => {
             })
         });
     });
+}
+
+exports.byRego = (req, res) => {
+    search(req, res, 'registration.number');
 };
+
+exports.byService = (req, res) => {
+    search(req, res, 'operator.permService');
+}

@@ -9,7 +9,7 @@ function loadBuses() {
         url: '/search/' + searchFunctions[$('select').selectedIndex],
         method: 'POST',
         data: {
-            rego: $('#input').value
+            query: $('#input').value
         }
     }, response => {
         if (response.error) {

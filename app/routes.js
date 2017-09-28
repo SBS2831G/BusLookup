@@ -5,4 +5,5 @@ module.exports = app => {
 	app.get('/', Index.index);
 
 	app.post('/search/byRego', Search.byRego);
+	app.post('/search/byService', Search.byService);
 };

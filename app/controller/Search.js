@@ -21,6 +21,12 @@ var operatorMap = {
 
 var allBusMakes = [];
 var allBusModels = [];
+var allBodyworks = [];
+var allServices = [];
+var allDepots = [];
+var allGearboxes = [];
+var allEDSes = [];
+var allOperators = [];
 
 function findAndReturn(req, res, rawJSON) {
     Bus.find(rawJSON, (err, buses) => {
@@ -38,7 +44,7 @@ function findAndReturn(req, res, rawJSON) {
                 }
 
                 return bus;
-            })
+            }).sort((a, b) => a.registration.number - b.registration.number)
         });
     });
 }
@@ -86,6 +92,31 @@ Bus.distinct('busData.model', (err, models) => {
     allBusModels = models;
 });
 
+Bus.distinct('busData.bodywork', (err, bodyworks) => {
+    allBodyworks = bodyworks;
+});
+
+Bus.distinct('operator.depot', (err, depots) => {
+    allDepots = depots;
+});
+
+Bus.distinct('operator.permService', (err, services) => {
+    allServices = services;
+});
+
+Bus.distinct('operator.operator', (err, operators) => {
+    allOperators = operators;
+});
+
+Bus.distinct('busData.gearbox', (err, gearboxes) => {
+    allGearboxes = gearboxes;
+});
+
+Bus.distinct('busData.edsModel', (err, edses) => {
+    allEDSes = edses;
+});
+
+
 exports.byModel = (req, res) => {
     if (!req.body.query) {
         res.status(400).json({
@@ -99,18 +130,71 @@ exports.byModel = (req, res) => {
     var search = {};
 
     allBusMakes.forEach(make => {
-        if (tokens.startsWith(make + ' ')) {
+        if (tokens.includes(make + ' ')) {
             search['busData.make'] = make;
-            tokens = tokens.slice(make.length).replace(/^\s+/, '');
+            tokens = tokens.replace(make, ' ').replace(/^\s+/, '');
+        }
+    });
+    allBusModels.forEach(model => {
+        if (tokens.includes(model + ' ')) {
+            search['busData.model'] = model;
+            tokens = tokens.replace(model, ' ').replace(/^\s+/, '');
         }
     });
 
-    allBusModels.forEach(model => {
-        if (tokens.startsWith(model + ' ')) {
-            search['busData.model'] = model;
-            tokens = tokens.slice(model.length).replace(/^\s+/, '');;
+    allBodyworks.forEach(bodywork => {
+        if (tokens.includes(bodywork + ' ')) {
+            search['busData.bodywork'] = bodywork;
+            tokens = tokens.replace(bodywork, ' ').replace(/^\s+/, '');
         }
     });
+
+    allGearboxes.forEach(gearbox => {
+        if (gearbox === '') return;
+        if (tokens.includes(gearbox + ' ')) {
+            search['busData.gearbox'] = gearbox;
+            tokens = tokens.replace(gearbox, ' ').replace(/^\s+/, '');
+        }
+    });
+
+    allEDSes.forEach(eds => {
+        if (tokens.includes(eds + ' ')) {
+            search['busData.edsModel'] = eds;
+            tokens = tokens.replace(eds, ' ').replace(/^\s+/, '');
+        }
+    });
+
+    allOperators.forEach(operator => {
+        if (operator === '') return;
+        if (tokens.includes(operator + ' ')) {
+            search['operator.operator'] = operator;
+            tokens = tokens.replace(operator, ' ').replace(/^\s+/, '');
+        }
+    });
+
+    allDepots.forEach(depot => {
+            if (depot === '') return;
+            if (tokens.includes(depot + ' ')) {
+                search['operator.depot'] = depot;
+                tokens = tokens.replace(depot, ' ').replace(/^\s+/, '');
+            }
+        });
+
+    allServices.forEach(service => {
+        if (service === '') return;
+        if (tokens.includes(service + ' ')) {
+            search['operator.permService'] = service;
+            tokens = tokens.replace(service, ' ').replace(/^\s+/, '');
+        }
+    });
+
+
+    if (Object.keys(search).length === 0) {
+        res.render('bus-search-results', {
+            buses: []
+        });
+        return;
+    }
 
     findAndReturn(req, res, search);
 

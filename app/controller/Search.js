@@ -19,6 +19,9 @@ var operatorMap = {
     'SMRT Buses': 'smrt'
 };
 
+var allBusMakes = [];
+var allBusModels = [];
+
 function findAndReturn(req, res, rawJSON) {
     Bus.find(rawJSON, (err, buses) => {
         res.render('bus-search-results', {
@@ -42,8 +45,8 @@ function findAndReturn(req, res, rawJSON) {
 
 function search(req, res, searchPath) {
     if (!req.body.query) {
-        res.status(500).json({
-            error: 'No rego provided!'
+        res.status(400).json({
+            error: 'No query provided!'
         });
         return;
     }
@@ -56,12 +59,12 @@ exports.byRego = (req, res) => {
 
 exports.byService = (req, res) => {
     if (!req.body.query) {
-        res.status(500).json({
-            error: 'No rego provided!'
+        res.status(400).json({
+            error: 'No query provided!'
         });
         return;
     }
-    
+
     if (!!req.body.query.match(/^\d{1,3}\w?$/)) {
         search(req, res, 'operator.permService');
     } else if (!!req.body.query.match(/^\w{4,5}$/)) {
@@ -73,4 +76,46 @@ exports.byService = (req, res) => {
             'operator.permService': x[2]
         });
     }
+}
+
+Bus.distinct('busData.make', (err, makes) => {
+    allBusMakes = makes;
+});
+
+Bus.distinct('busData.model', (err, models) => {
+    allBusModels = models;
+});
+
+exports.byModel = (req, res) => {
+    if (!req.body.query) {
+        res.status(400).json({
+            error: 'No query provided!'
+        });
+        return;
+    }
+
+    var tokens = req.body.query + ' ';
+
+    var search = {};
+
+    allBusMakes.forEach(make => {
+        if (tokens.startsWith(make + ' ')) {
+            search['busData.make'] = make;
+            tokens = tokens.slice(make.length).replace(/^\s+/, '');
+        }
+    });
+
+    console.log(tokens)
+
+    allBusModels.forEach(model => {
+        if (tokens.startsWith(model + ' ')) {
+            search['busData.model'] = model;
+            tokens = tokens.slice(model.length).replace(/^\s+/, '');;
+        }
+    });
+
+    console.log(search)
+
+    findAndReturn(req, res, search);
+
 }

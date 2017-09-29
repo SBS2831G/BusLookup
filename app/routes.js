@@ -6,5 +6,5 @@ module.exports = app => {
 
 	app.post('/search/byRego', Search.byRego);
 	app.post('/search/byService', Search.byService);
-	app.post('/search/byModel', Search.byModel);
+	app.post('/search/smartSearch', Search.smartSearch);
 };

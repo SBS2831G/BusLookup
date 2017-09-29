@@ -117,7 +117,7 @@ Bus.distinct('busData.edsModel', (err, edses) => {
 });
 
 
-exports.byModel = (req, res) => {
+exports.smartSearch = (req, res) => {
     if (!req.body.query) {
         res.status(400).json({
             error: 'No query provided!'

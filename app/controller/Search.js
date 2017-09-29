@@ -101,7 +101,7 @@ Bus.distinct('operator.depot', (err, depots) => {
 });
 
 Bus.distinct('operator.permService', (err, services) => {
-    allServices = services;
+    allServices = services.filter(e => !!e.match(/\d+/)).sort((a, b) => b.match(/\d+/)[0] - a.match(/\d+/)[0]);
 });
 
 Bus.distinct('operator.operator', (err, operators) => {
@@ -125,66 +125,65 @@ exports.smartSearch = (req, res) => {
         return;
     }
 
-    var tokens = req.body.query + ' ';
-
+    var tokens = ' ' + req.body.query.replace(/\s{2,}/, ' ').trim() + ' ';
     var search = {};
 
     allBusMakes.forEach(make => {
-        if (tokens.includes(make + ' ')) {
+        if (tokens.includes(' ' + make + ' ')) {
             search['busData.make'] = make;
-            tokens = tokens.replace(make, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(make, ' ');
         }
     });
     allBusModels.forEach(model => {
-        if (tokens.includes(model + ' ')) {
+        if (tokens.includes(' ' + model + ' ')) {
             search['busData.model'] = model;
-            tokens = tokens.replace(model, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(model, ' ');
         }
     });
 
     allBodyworks.forEach(bodywork => {
-        if (tokens.includes(bodywork + ' ')) {
+        if (tokens.includes(' ' + bodywork + ' ')) {
             search['busData.bodywork'] = bodywork;
-            tokens = tokens.replace(bodywork, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(bodywork, ' ');
         }
     });
 
     allGearboxes.forEach(gearbox => {
         if (gearbox === '') return;
-        if (tokens.includes(gearbox + ' ')) {
+        if (tokens.includes(' ' + gearbox + ' ')) {
             search['busData.gearbox'] = gearbox;
-            tokens = tokens.replace(gearbox, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(gearbox, ' ');
         }
     });
 
     allEDSes.forEach(eds => {
-        if (tokens.includes(eds + ' ')) {
+        if (tokens.includes(' ' + eds + ' ')) {
             search['busData.edsModel'] = eds;
-            tokens = tokens.replace(eds, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(eds, ' ');
         }
     });
 
     allOperators.forEach(operator => {
         if (operator === '') return;
-        if (tokens.includes(operator + ' ')) {
+        if (tokens.includes(' ' + operator + ' ')) {
             search['operator.operator'] = operator;
-            tokens = tokens.replace(operator, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(operator, ' ');
         }
     });
 
     allDepots.forEach(depot => {
-            if (depot === '') return;
-            if (tokens.includes(depot + ' ')) {
-                search['operator.depot'] = depot;
-                tokens = tokens.replace(depot, ' ').replace(/^\s+/, '');
-            }
-        });
+        if (depot === '') return;
+        if (tokens.includes(' ' + depot + ' ')) {
+            search['operator.depot'] = depot;
+            tokens = tokens.replace(depot, ' ');
+        }
+    });
 
     allServices.forEach(service => {
         if (service === '') return;
-        if (tokens.includes(service + ' ')) {
+        if (tokens.includes(' ' + service + ' ')) {
             search['operator.permService'] = service;
-            tokens = tokens.replace(service, ' ').replace(/^\s+/, '');
+            tokens = tokens.replace(service, ' ');
         }
     });
 

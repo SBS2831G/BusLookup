@@ -105,16 +105,12 @@ exports.byModel = (req, res) => {
         }
     });
 
-    console.log(tokens)
-
     allBusModels.forEach(model => {
         if (tokens.startsWith(model + ' ')) {
             search['busData.model'] = model;
             tokens = tokens.slice(model.length).replace(/^\s+/, '');;
         }
     });
-
-    console.log(search)
 
     findAndReturn(req, res, search);
 

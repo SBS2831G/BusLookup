@@ -12,10 +12,12 @@
     "csv": "^1.1.1",
     "express": "^4.15.4",
     "hsts": "^2.1.0",
+    "jsdom": "^11.3.0",
     "moment": "^2.18.1",
     "momentjs": "^2.0.0",
     "mongoose": "^4.11.9",
     "pretty-seconds": "^0.2.1",
-    "pug": "^2.0.0-rc.3"
+    "pug": "^2.0.0-rc.3",
+    "request": "^2.83.0"
   }
 }

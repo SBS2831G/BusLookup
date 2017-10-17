@@ -14,7 +14,7 @@ var BusSchema = new Schema({
 		chassis: String,
 		deregDate: {
 			type: Date,
-			default: new Date(-1)
+			default: new Date(0)
 		},
 		gearbox: String,
 		edsModel: String
@@ -22,8 +22,7 @@ var BusSchema = new Schema({
 	operator: {
 		operator: String,
 		depot: String,
-		permService: String,
-		crossOvers: Array
+		permService: String
 	},
 	fleet: {
 		batch: String

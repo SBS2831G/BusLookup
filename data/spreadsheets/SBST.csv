@@ -995,9 +995,9 @@
 994,H,Volvo,B10M MKIV,Duple Metsec,SBS Transit,,17Apr2015,,,,1,ZF Ecomat I 4HP 500,NA; Desto,Unknown,Deans,Sütrak AC 35
 995,E,Volvo,B10M MKIV,Duple Metsec,SBS Transit,,17Apr2015,,,,1,ZF Ecomat I 4HP 500,NA; Desto,Unknown,Deans,Sütrak AC 35
 996,C,Volvo,B10M MKIV,Duple Metsec,SBS Transit,,17Apr2015,,,,1,ZF Ecomat I 4HP 500,NA; Desto,Unknown,Deans,Sütrak AC 35
-997,A,Volvo,B10M MKIV-70,Duple Metsec,SBS Transit,,13Oct2012,Demonstrator; Failed,,,Demo,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Unknown,Deans,Sütrak AC 35
-998,Y,Volvo,B10MA MKIV-60,Duple Metsec,SBS Transit,,,Demonstrator; Failed,,,Demo,ZF Ecomat 1 4HP 590,Mobitec MobiDOT,Unknown,SMC Transit,Sütrak AC 350 + Sütrak AC 310
-999,U,Mercedes Benz,O405G,Volgren CR221,SBS Transit,,,Demonstrator; Failed,,,Demo,ZF Ecomat I 4HP 590,Alcatel,Unknown,SMC Transit,Denso
+997,A,Volvo,B10M MKIV-70,Duple Metsec,SBS Transit,YV31M2F17TA044081,13Oct2012,Demonstrator; Failed,,,Demo,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Unknown,Deans,Sütrak AC 35
+998,Y,Volvo,B10MA MKIV-60,Duple Metsec,SBS Transit,YV31M2B15TA044974,,Demonstrator; Failed,,,Demo,ZF Ecomat 1 4HP 590,Mobitec MobiDOT,Unknown,SMC Transit,Sütrak AC 350 + Sütrak AC 310
+999,U,Mercedes Benz,O405G,Volgren CR221,SBS Transit,WDB35721121082773,,Demonstrator; Failed,,,Demo,ZF Ecomat I 4HP 590,Alcatel,Unknown,SMC Transit,Denso
 1000,U,Mercedes Benz,LP1113,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
 1001,S,Albion,Viking VK41L,Unknown,SBS Transit,,,From Hock Lee Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
 1002,P,Albion,Viking VK41L,Unknown,SBS Transit,,,From Hock Lee Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
@@ -2787,56 +2787,56 @@
 2786,D,Volvo,B10M MKIV,DM3500,SBS Transit,,20Oct2016,,,,,Voith DIWA 851.3,NA; Desto,Unknown,Unknown,Unknown
 2787,B,Volvo,B10M MKIV,DM3500,SBS Transit,,20Oct2016,,,,,Voith DIWA 851.3,NA; Desto,Unknown,Unknown,Unknown
 2788,Z,Volvo,B10M MKIV,DM3500,SBS Transit,,20Oct2016,,,,,Voith DIWA 851.3,NA; Desto,Unknown,Unknown,Unknown
-2789,X,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2790,R,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2791,M,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2792,K,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2793,H,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2794,E,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2795,C,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2796,A,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2797,Y,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2798,U,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2799,S,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2800,X,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2801,T,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2802,R,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2803,M,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2804,K,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2805,H,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2806,E,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2807,C,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2808,A,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2809,Y,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2810,S,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Carrier Sütrak AC 353
-2811,P,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2812,L,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2813,J,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2814,G,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2815,D,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2816,B,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2817,Z,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2818,X,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2819,T,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2820,M,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2821,K,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2822,H,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2823,E,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2824,C,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2825,A,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2826,Y,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2827,U,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2828,S,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2829,P,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2830,J,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2831,G,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2832,D,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2833,B,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2834,Z,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2835,X,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2836,T,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2837,R,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
-2838,M,Volvo,B10M MKIV,DM3500,SBS Transit,,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Carrier Sütrak AC 353
+2789,X,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F18WAO47947,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2790,R,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F10WAO47909,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2791,M,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F1XWAO48954,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2792,K,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F13WAO48956,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2793,H,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F14WAO48951,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2794,E,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F18WAO48953,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2795,C,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F12WAO48950,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2796,A,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F16WAO48952,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2797,Y,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F11WAO49068,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2798,U,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F16WAO48949,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2799,S,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F19WAO49075,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2800,X,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F1XWAO49070,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2801,T,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F11WAO49071,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2802,R,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F17WAO49074,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2803,M,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F13WAO49069,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2804,K,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F13WAO49072,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2805,H,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F15WAO49073,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2806,E,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F17WAO48958,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2807,C,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F14WAO49159,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2808,A,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F12WAO49158,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2809,Y,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F13WAO49153,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2810,S,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F15WAO49154,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Carrier Sütrak AC 353
+2811,P,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F17WAO49155,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2812,L,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F16WAO49163,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2813,J,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F14WAO49288,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2814,G,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F10WAO49157,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2815,D,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F10WAO49160,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2816,B,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F14WAO49291,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2817,Z,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F18WAO49293,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2818,X,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F16WAO49289,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2819,T,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F12WAO49287,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2820,M,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F12WAO49290,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2821,K,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F19WAO49285,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2822,H,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F19WAO49156,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2823,E,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F1XWAO49294,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2824,C,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F12WAO49161,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2825,A,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F18WAO49164,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2826,Y,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F14WAO49162,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2827,U,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M3F13WAO49296,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2828,S,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F10WAO49286,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2829,P,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F11WAO49295,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2830,J,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F1XWAO49358,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2831,G,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F16WAO49292,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2832,D,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F11WAO49359,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2833,B,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F11WAO49362,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2834,Z,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F13WAO49363,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2835,X,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F15WAO49364,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2836,T,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F18WAO49360,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2837,R,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F1XWAO49361,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Sütrak AC 350
+2838,M,Volvo,B10M MKIV,DM3500,SBS Transit,YV31M2F11VAO47724,25Dec2017,,,,1,Voith DIWA 851.3,NA; Desto,Unknown,Deans,Carrier Sütrak AC 353
 2839,K,,,,,,,,,,,,,,,
 2840,E,,,,,,,,,,,,,,,
 2841,C,,,,,,,,,,,,,,,
@@ -2986,18 +2986,18 @@
 2985,X,,,,,,,,,,,,,,,
 2986,T,,,,,,,,,,,,,,,
 2987,R,,,,,,,,,,,,,,,
-2988,M,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,18Apr2019,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2989,K,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,17Jul2019,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2990,E,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2991,C,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2992,A,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2993,Y,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2994,U,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2995,S,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2996,P,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2997,L,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2998,J,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
-2999,G,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2988,M,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3122A008449,18Apr2019,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2989,K,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3102A008496,17Jul2019,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2990,E,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3192A008674,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2991,C,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3172A008673,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2992,A,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3152A008672,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2993,Y,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3102A008675,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2994,U,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3142A008677,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2995,S,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3162A008678,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2996,P,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3142A008680,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2997,L,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3162A008681,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2998,J,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3122A008676,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
+2999,G,Volvo,B10BLE-CNG,Volgren CR222L,SBS Transit,YV3R4E3182A008679,28Dec2022,,BBDEP,,1,Voith DIWA 863.3,NA; Desto,Vogelsitze System 400,SMC Transit,CoolAir
 3000,G,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,BBDEP,147/147A*,2,Voith DIWA 864.5,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 3001,D,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,HGDEP,165,2,Voith DIWA 864.5,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 3002,B,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,HGDEP,165,2,Voith DIWA 864.5,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
@@ -3998,154 +3998,154 @@
 3997,E,,,,,,,,,,,,,,,
 3998,C,,,,,,,,,,,,,,,
 3999,A,,,,,,,,,,,,,,,
-4000,A,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4001,Y,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4002,U,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4003,S,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4004,P,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4005,L,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4006,J,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4007,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4008,D,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4009,B,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4010,X,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4011,T,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4012,R,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4013,M,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4014,K,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4015,H,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4016,E,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4017,C,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4018,A,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4019,Y,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4020,S,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4021,P,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4022,L,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4023,J,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4024,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4025,D,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4026,B,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4027,Z,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4028,X,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4029,T,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4030,M,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4031,K,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4032,H,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4033,E,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4034,C,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4035,A,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4036,Y,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4037,U,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4038,S,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4039,P,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4040,J,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4041,G,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4042,D,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4043,B,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4044,Z,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4045,X,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4046,T,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4047,R,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4048,M,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4049,K,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4050,E,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4051,C,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4052,A,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4053,Y,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4054,U,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4055,S,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4056,P,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4057,L,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4058,J,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4059,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4060,B,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4061,Z,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4062,X,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4063,T,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4064,R,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4065,M,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4066,K,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4067,H,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4068,E,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4069,C,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4070,Y,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4071,U,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4072,S,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4073,P,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4074,L,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4075,J,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4076,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4077,D,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4078,B,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4079,Z,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4080,T,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4081,R,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4082,M,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4083,K,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4084,H,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4085,E,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4086,C,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4087,A,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4088,Y,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4089,U,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4090,P,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4091,L,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4092,J,Mercedes Benz,OF1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4093,G,Mercedes Benz,OF1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4094,D,Mercedes Benz,OF1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4095,B,Mercedes Benz,LP1113,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4096,Z,Berliet,PEG205,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4097,X,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4098,T,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4099,R,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4100,U,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4101,S,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4102,P,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4103,L,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4104,J,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4105,G,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4106,D,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4107,B,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4108,Z,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4109,X,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4110,R,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4111,M,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4112,K,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4113,H,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4114,E,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4115,C,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4116,A,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4117,Y,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4118,U,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4119,S,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4120,L,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4121,J,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4122,G,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4123,D,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4124,B,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4125,Z,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4126,X,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
+4000,A,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4001,Y,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4002,U,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4003,S,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4004,P,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4005,L,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4006,J,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4007,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4008,D,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4009,B,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4010,X,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4011,T,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4012,R,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4013,M,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4014,K,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4015,H,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4016,E,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4017,C,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4018,A,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4019,Y,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4020,S,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4021,P,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4022,L,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4023,J,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4024,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4025,D,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4026,B,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4027,Z,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4028,X,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4029,T,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4030,M,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4031,K,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4032,H,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4033,E,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4034,C,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4035,A,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4036,Y,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4037,U,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4038,S,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4039,P,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4040,J,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4041,G,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4042,D,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4043,B,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4044,Z,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4045,X,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4046,T,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4047,R,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4048,M,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4049,K,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4050,E,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4051,C,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4052,A,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4053,Y,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4054,U,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4055,S,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4056,P,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4057,L,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4058,J,Mercedes Benz,OF1413,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4059,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4060,B,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4061,Z,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4062,X,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4063,T,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4064,R,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4065,M,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4066,K,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4067,H,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4068,E,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4069,C,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4070,Y,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4071,U,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4072,S,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4073,P,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4074,L,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4075,J,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4076,G,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4077,D,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4078,B,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4079,Z,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4080,T,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4081,R,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4082,M,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4083,K,Albion,Viking EVK41UL,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4084,H,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4085,E,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4086,C,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4087,A,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4088,Y,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4089,U,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4090,P,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4091,L,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4092,J,Mercedes Benz,OF1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4093,G,Mercedes Benz,OF1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4094,D,Mercedes Benz,OF1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4095,B,Mercedes Benz,LP1113,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4096,Z,Berliet,PGK205,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4097,X,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4098,T,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4099,R,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4100,U,Mercedes Benz,LP1113,Unknown,SBS Transit,,,From Katong Bedok Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4101,S,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4102,P,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4103,L,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4104,J,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4105,G,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4106,D,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4107,B,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4108,Z,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4109,X,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4110,R,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4111,M,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4112,K,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4113,H,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4114,E,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4115,C,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4116,A,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4117,Y,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4118,U,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4119,S,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4120,L,Nissan Diesel,RX102,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4121,J,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4122,G,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4123,D,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4124,B,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4125,Z,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4126,X,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
 4127,T,,,,,,,,,,,,,,,
 4128,R,,,,,,,,,,,,,,,
-4129,M,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
+4129,M,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
 4130,H,,,,,,,,,,,,,,,
-4131,E,Austin,1100F,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4132,C,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4133,A,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4134,Y,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
+4131,E,Austin,1100F,Unknown,SBS Transit,,,,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4132,C,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4133,A,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4134,Y,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
 4135,U,,,,,,,,,,,,,,,
 4136,S,,,,,,,,,,,,,,,
 4137,P,,,,,,,,,,,,,,,
 4138,L,,,,,,,,,,,,,,,
-4139,J,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
+4139,J,Bedford,SB,Unknown,SBS Transit,,,From Punggol Bus Company,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
 4140,D,,,,,,,,,,,,,,,
 4141,B,,,,,,,,,,,,,,,
 4142,Z,,,,,,,,,,,,,,,
-4143,X,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4144,T,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4145,R,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4146,M,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
-4147,K,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,Unknown
+4143,X,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4144,T,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4145,R,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4146,M,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
+4147,K,Nissan Diesel,4R94,Unknown,SBS Transit,,,From STC,,,,Unknown,NA; Desto,Unknown,Unknown,NAC
 4148,H,,,,,,,,,,,,,,,
 4149,E,,,,,,,,,,,,,,,
 4150,A,,,,,,,,,,,,,,,
@@ -4662,7 +4662,7 @@
 4661,S,,,,,,,,,,,,,,,
 4662,P,,,,,,,,,,,,,,,
 4663,L,,,,,,,,,,,,,,,
-4664,J,,,,,,,,,,,,,,,
+4664,J,Ford,Type B1617,Unknown,SBS Transit,,,Demonstrator; Failed,,,Demo,Unknown,NA; Desto,Unknown,Unknown,NAC
 4665,G,,,,,,,,,,,,,,,
 4666,D,,,,,,,,,,,,,,,
 4667,B,,,,,,,,,,,,,,,
@@ -4673,7 +4673,7 @@
 4672,K,,,,,,,,,,,,,,,
 4673,H,,,,,,,,,,,,,,,
 4674,E,,,,,,,,,,,,,,,
-4675,C,Berliet,PGK205,,,,,,,,,,,,,
+4675,C,Berliet,PGK205,Unknown,SBS Transit,,,Demonstrator; Passed,,,Demo,Allison Automatic,NA; Desto,Unknown,Unknown,NAC
 4676,A,,,,,,,,,,,,,,,
 4677,Y,,,,,,,,,,,,,,,
 4678,U,,,,,,,,,,,,,,,
@@ -4959,7 +4959,7 @@
 4958,L,,,,,,,,,,,,,,,
 4959,J,,,,,,,,,,,,,,,
 4960,D,,,,,,,,,,,,,,,
-4961,B,,,,,,,,,,,,,,,
+4961,B,Volvo,B10MD,East Lancs,Super Bus Services,6087,,,,,1,Unknown,NA; Desto,Unknown,Unknown,NAC
 4962,Z,Leyland,Atlantean AN68/2R,Walter Alexander Royale,Super Bus Services,8400235,,,,,1,Leyland Pneumocyclic Gearbox,NA; Desto,Unknown,Unknown,NAC
 4963,X,Leyland,Atlantean AN68/2R,Walter Alexander Royale,Super Bus Services,,,,,,1,Leyland Pneumocyclic Gearbox,NA; Desto,Unknown,Unknown,NAC
 4964,T,Leyland,Atlantean AN68/2R,Walter Alexander Royale,Super Bus Services,,,,,,1,Leyland Pneumocyclic Gearbox,NA; Desto,Unknown,Unknown,NAC

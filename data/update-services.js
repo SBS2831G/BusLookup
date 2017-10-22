@@ -20,9 +20,9 @@ var urls = [
         'https://sgwiki.com/wiki/Mercedes-Benz_O530_Citaro_(Batch_1)',
         'https://sgwiki.com/wiki/Mercedes-Benz_O530_Citaro_(Batch_2)',
         'https://sgwiki.com/wiki/Mercedes-Benz_O530_Citaro_(Batch_3)',
-        'https://sgwiki.com/wiki/MAN_NL323F_(2-Door_Batch_1)',
-        'https://sgwiki.com/wiki/MAN_NL323F_(2-Door_Batch_2)',
-        'https://sgwiki.com/wiki/MAN_NL323F_(2-Door_Batch_3)',
+        'https://sgwiki.com/wiki/MAN_NL323F_(Batch_1)',
+        'https://sgwiki.com/wiki/MAN_NL323F_(Batch_2)',
+        'https://sgwiki.com/wiki/MAN_NL323F_(Batch_3)',
         'https://sgwiki.com/wiki/MAN_NL323F_(3-Door)',
         'https://sgwiki.com/wiki/MAN_ND323F_(Batch_1)',
         'https://sgwiki.com/wiki/MAN_ND323F_(Batch_2)',
@@ -62,28 +62,31 @@ function main() {
             var dom = new JSDOM(body);
             var tables = Array.from(dom.window.document.querySelectorAll('table.toccolours'));
             tables.forEach(table => {
-                var text = table.textContent.replace(/\n/g, '');
-                var possibleMatches = text.match(/((?:SG|SBS|SMB|TIB)\d{1,4}\w)(\w{4,5})\s?(SP|TRG|\d{1,3}[eAB]?)?/g).map(bus=>bus.match(/([A-Z]{2,3})(\d{1,4})(\w)(\w{4,5})\s(\w+)?/));
-                var matches = possibleMatches.filter(Boolean);
-                var output = matches.map(bus => bus.slice(1,6));
-                output.forEach(bus => {
+
+                var buses = Array.from(table.querySelectorAll('tr')).slice(1)
+
+                buses.forEach(bus => {
+                    var rego = bus.children[0].textContent.trim().match(/([A-Z]+)(\d+)(\w)/).slice(1, 4);
+                    var deployment = bus.children[1].textContent.trim().split(' ').concat(['Unknown']);
+
                     var search = {
-                        'registration.prefix': bus[0],
-                        'registration.number': bus[1] * 1,
-                        'registration.checksum': bus[2]
+                        'registration.prefix': rego[0],
+                        'registration.number': rego[1] * 1,
+                        'registration.checksum': rego[2]
                     }
                     bus[4] = bus[4] || 'Unknown';
+                    console.log('Updating ' + rego[0] + rego[1] + rego[2]);
+
                     var update = {
                         $set: {
-                            'operator.depot': bus[3],
-                            'operator.permService': bus[4].split('/')[0],
-                            'operator.crossOvers': bus[4].split('/').slice(1).map(svc => svc.replace('*', ''))
+                            'operator.depot': deployment[0],
+                            'operator.permService': deployment[1].split('/')[0],
+                            'operator.crossOvers': deployment[1].split('/').slice(1).map(svc => svc.replace('*', ''))
                         }
                     }
 
-                    console.log('Updating ' + bus[0] + bus[1] + bus[2]);
                     Bus.findOneAndUpdate(search, update, () => {
-                        console.log('Updated ' + bus[0] + bus[1] + bus[2]);
+                        console.log('Updated ' + rego[0] + rego[1] + rego[2]);
                     });
                 });
             });

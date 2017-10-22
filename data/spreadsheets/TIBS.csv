@@ -545,7 +545,7 @@
 544,E,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,22Aug2012,,WLDEP,971E/922*/903*,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
 545,C,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,21Aug2012,,WLBP,171,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
 546,A,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,21Aug2012,,KJDEP,300,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
-547,Y,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,22Aug2012,,BUDEP,106,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
+547,Y,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,WDB35700521078003,22Aug2012,,BUDEP,106,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
 548,U,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,22Aug2012,,BUDEP,106,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
 549,S,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,22Aug2012,,KJDEP,190,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
 550,L,Mercedes Benz,O405,Hispano Carrocera,SMRT Buses,,22Aug2012,,AMDEP,SP,OAC,ZF Ecomat I 4HP 500,Mobitec MobiLED,Vogelsitze System 600,Masats,Hispacold
@@ -836,7 +836,7 @@
 835,R,Scania,L113CRL,ELBO,SMRT Buses,,,Scrapped,KJDEP,970,1,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Fainsa Arianne,Deans,Hispacold
 836,M,Scania,L113CRL,ELBO,SMRT Buses,,,Scrapped,WLDEP,852,1,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Fainsa Arianne,Deans,Hispacold
 837,K,Scania,L113CRL,ELBO,SMRT Buses,,27Feb2013,,WLDEP,178,1,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Vogelsitze System 600,Deans,Hispacold
-838,H,Mercedes Benz,O405G,Hispano Carrocera MKI,SMRT Buses,,15Mar2013,Demonstrator; Passed,KJDEP,180,Demo,ZF Ecomat I 4HP 500,Gorba Imotion,Fainsa Arianne,Masats,Konvekta
+838,H,Mercedes Benz,O405G,Hispano Carrocera MKI,SMRT Buses,WDB35721121082037,15Mar2013,Demonstrator; Passed,KJDEP,180,Demo,ZF Ecomat I 4HP 500,Gorba Imotion,Fainsa Arianne,Masats,Konvekta
 839,E,Scania,L113CRL,ELBO,SMRT Buses,,,Scrapped,WLDEP,852,1,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Fainsa Arianne,Deans,Hispacold
 840,A,Scania,L113CRL,ELBO,SMRT Buses,,20Mar2013,,WLDEP,187,1,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Vogelsitze System 600,Deans,Hispacold
 841,Y,Scania,L113CRL,ELBO,SMRT Buses,,20Mar2013,,WLDEP,178,1,ZF Ecomat I 4HP 500,Mobitec MobiDOT,Vogelsitze System 600,Deans,Hispacold
@@ -1098,7 +1098,7 @@
 1097,Y,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,20Dec2017,Layup,KJDEP,SP,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
 1098,U,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,20Dec2017,,,,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
 1099,S,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,20Dec2017,Layup,AMDEP,SP,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
-1100,X,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,20Dec2017,,,,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
+1100,X,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,WEB35721121096564,20Dec2017,,,,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
 1101,T,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,20Dec2017,,,,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
 1102,R,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,21Dec2017,,,,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold
 1103,M,Mercedes Benz,O405G,Hispano Habit,SMRT Buses,,21Dec2017,,,,1,ZF Ecomat I 4HP 590,Mobitec MobiLED,Volgelsitze System 600,Bode-Masats,Hispacold

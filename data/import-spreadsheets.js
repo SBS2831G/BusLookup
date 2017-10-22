@@ -9,7 +9,10 @@ const fileTypes = {
     'TIBS': 'TIB',
     'SBST': 'SBS',
     'SG': 'SG',
-    'SMRT': 'SMB'
+    'SMRT': 'SMB',
+    'PA': 'PA',
+    'PC': 'PC',
+    'PZ': 'PZ'
 };
 
 mongoose.Promise = global.Promise;
@@ -92,6 +95,10 @@ function main() {
                             });
                         } else {
                             console.log('Updating Bus: ' + regoPrefix + bus[0] + bus[1]);
+                            if (busData.operator.permService === '') {
+                                busData.operator.permService = dbbus.operator.permService;
+                                busData.operator.depot = dbbus.operator.depot;
+                            }
                             dbbus.set(busData);
                             dbbus.save(() => {
                                 console.log('Saved ' + regoPrefix + bus[0] + bus[1])

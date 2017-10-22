@@ -3001,7 +3001,7 @@
 3999,L,,,,,,,,,,,,,,,
 4000,L,,,,,,,,,,,,,,,
 4001,J,BYD,K9 E-BUS,BYD,LTA Storage,LC06S24S7D0000004,27Aug2033,Demonstrator; Unknown,LYDEP,Unknown,Demo,Unknown,Mobitec MobiLED,Vogelsitze System 750/3,SMC Transit,BYD
-4002,G,MAN,NL323F,MAN Lion's City SD 3 Door,SMRT Buses,,06Jun2034,Demonstrator; Unknown,KJDEP,190,Demo,Voith DIWA 864.5,Mobitec MobiLED Colour,Vogelsitze Revo S,Masats,Denso LD8u
+4002,G,MAN,NL323F,MAN Lion's City SD 3 Door,SMRT Buses,WMAA22ZZ5F7002910,06Jun2034,Demonstrator; Unknown,KJDEP,190,Demo,Voith DIWA 864.5,Mobitec MobiLED Colour,Vogelsitze Revo S,Masats,Denso LD8u
 4003,D,,,,,,,,,,,,,,,
 4004,B,,,,,,,,,,,,,,,
 4005,Z,,,,,,,,,,,,,,,
@@ -4433,7 +4433,7 @@
 5431,U,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5432,S,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5433,P,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
-5434,L,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5434,L,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P928HA181169,09Mar2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5435,J,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5436,G,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5437,D,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
@@ -4486,23 +4486,23 @@
 5484,S,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5485,P,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5486,L,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
-5487,J,,,,,,,,,,,,,,,
-5488,G,,,,,,,,,,,,,,,
-5489,D,,,,,,,,,,,,,,,
-5490,Z,,,,,,,,,,,,,,,
-5491,X,,,,,,,,,,,,,,,
-5492,T,,,,,,,,,,,,,,,
-5493,R,,,,,,,,,,,,,,,
-5494,M,,,,,,,,,,,,,,,
-5495,K,,,,,,,,,,,,,,,
-5496,H,,,,,,,,,,,,,,,
-5497,E,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
-5498,C,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
-5499,A,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
-5500,D,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
-5501,B,,,,,,,,,,,,,,,
-5502,Z,,,,,,,,,,,,,,,
-5503,X,,,,,,,,,,,,,,,
+5487,J,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P926HA182496,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5488,G,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P921HA182695,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5489,D,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P923HA182696,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5490,Z,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P925HA182697,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5491,X,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P927HA182698,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5492,T,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P929HA182699,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5493,R,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P929HA182721,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5494,M,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P928HA182757,04Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5495,K,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P92XHA182758,10Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5496,H,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P921HA182759,10Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5497,E,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P928HA182760,17Aug2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5498,C,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P92XHA182761,17Aug2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5499,A,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P921HA182762,17Aug2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5500,D,Volvo,B9TL,Wright Eclipse Gemini 2,SMRT Buses,YV3S4P922HA182916,17Aug2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5501,B,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P923HA182925,10Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5502,Z,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P925HA182926,10Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5503,X,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P927HA182927,10Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Volgelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5504,T,,,,,,,,,,,,,,,
 5505,R,,,,,,,,,,,,,,,
 5506,M,,,,,,,,,,,,,,,
@@ -4829,9 +4829,9 @@
 5827,L,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5828,J,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5829,G,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
-5830,B,MAN,ND323F,MAN Lion's City DD,SBS Transit,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
-5831,Z,MAN,ND323F,MAN Lion's City DD,SBS Transit,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
-5832,X,MAN,ND323F,MAN Lion's City DD,SBS Transit,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5830,B,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ9G7003492,10Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5831,Z,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ2G7003494,10Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5832,X,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ4G7003495,10Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5833,T,,,,,,,,,,,,,,,
 5834,R,,,,,,,,,,,,,,,
 5835,M,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ4G7003464,19Jul2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
@@ -4998,7 +4998,7 @@
 5996,G,,,,,,,,,,,,,,,
 5997,D,,,,,,,,,,,,,,,
 5998,B,,,,,,,,,,,,,,,
-5999,Z,MAN,ND323F,MAN Lion's City DD L,LTA Storage,,21Feb2034,Demonstrator; Unknown,BUDEP,,Demo,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED Colour,Vogelsitze Revo S,Masats,Denso
+5999,Z,MAN,ND323F,MAN Lion's City DD L,LTA Storage,WMAA95???????????,21Feb2034,Demonstrator; Unknown,BUDEP,,Demo,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED Colour,Vogelsitze Revo S,Masats,Denso
 6000,Z,,,,,,,,,,,,,,,
 6001,X,,,,,,,,,,,,,,,
 6002,T,,,,,,,,,,,,,,,
@@ -6998,3 +6998,4 @@
 7996,T,,,,,,,,,,,,,,,
 7997,R,,,,,,,,,,,,,,,
 7998,M,,,,,,,,,,,,,,,
+35,M,Toyota,Hiace,Toyota,LTA Storage,LH1621007992,16Dec2022,Y U NO BUS,ABCDEFG,666,-1,Magical Gearbox,Celluose Fiber-Type Paper Desto,Plastic Chair,Honda Door,Ice Packs

@@ -73,6 +73,7 @@ input[type="checkbox"] {
     align-items: center;
     padding-bottom: calc((100vw + 100vh) * 0.003);
     flex-direction: column;
+    background-color: #FF69B4;
 }
 
 label {

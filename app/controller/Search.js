@@ -90,6 +90,7 @@ Bus.distinct('busData.make', (err, makes) => {
 });
 
 Bus.distinct('busData.model', (err, models) => {
+    console.log(models)
     allBusModels = models;
 });
 
@@ -188,14 +189,21 @@ exports.smartSearch = (req, res) => {
         }
     });
 
+    var finalSearch = {};
 
-    if (Object.keys(search).length === 0) {
+    Object.keys(search).forEach(key => {
+        if (search[key].length !== 0) {
+            finalSearch[key] = search[key];
+        }
+    });
+
+    if (Object.keys(finalSearch).length === 0) {
         res.render('bus-search-results', {
             buses: []
         });
         return;
     }
 
-    findAndReturn(req, res, search);
+    findAndReturn(req, res, finalSearch);
 
 }

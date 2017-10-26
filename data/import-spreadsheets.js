@@ -12,7 +12,10 @@ const fileTypes = {
     'SMRT': 'SMB',
     'PA': 'PA',
     'PC': 'PC',
-    'PZ': 'PZ'
+    'PZ': 'PZ',
+    'RU': 'RU',
+    'WC': 'WC',
+    'CB': 'CB'
 };
 
 mongoose.Promise = global.Promise;
@@ -23,7 +26,7 @@ function connect() {
         keepAlive: true,
         reconnectTries: Infinity,
         useMongoClient: true,
-        poolSize: 50000
+        poolSize: 5000000
 	});
 }
 
@@ -35,9 +38,11 @@ connect().then(() => {
 
 function main() {
     Object.keys(fileTypes).forEach(operatorName => {
+        console.log('Doing ' + operatorName);
         var regoPrefix = fileTypes[operatorName];
 
         fs.readFile('./spreadsheets/' + operatorName + '.csv', (err, data) => {
+            console.log(data.slice(0, 100))
             csv.parse(data, (err, busList) => {
                 busList.splice(0, 1);
                 busList.forEach(bus => {
@@ -89,19 +94,19 @@ function main() {
                         }
 
                         if (!dbbus) {
-                            console.log('New Bus: ' + regoPrefix + bus[0] + bus[1]);
+                            // console.log('New Bus: ' + regoPrefix + bus[0] + bus[1]);
                             new Bus(busData).save(() => {
-                                console.log('Saved ' + regoPrefix + bus[0] + bus[1])
+                                // console.log('Saved ' + regoPrefix + bus[0] + bus[1])
                             });
                         } else {
-                            console.log('Updating Bus: ' + regoPrefix + bus[0] + bus[1]);
+                            // console.log('Updating Bus: ' + regoPrefix + bus[0] + bus[1]);
                             if (busData.operator.permService === '') {
                                 busData.operator.permService = dbbus.operator.permService;
                                 busData.operator.depot = dbbus.operator.depot;
                             }
                             dbbus.set(busData);
                             dbbus.save(() => {
-                                console.log('Saved ' + regoPrefix + bus[0] + bus[1])
+                                // console.log('Saved ' + regoPrefix + bus[0] + bus[1])
                             });
                         }
                     });

@@ -85,9 +85,13 @@ function main() {
                         }
                     }
 
-                    Bus.findOneAndUpdate(search, update, () => {
-                        console.log('Updated ' + rego[0] + rego[1] + rego[2]);
+                    Bus.findOne(search, (err, bus) => {
+                        if (bus.operator.depot.startsWith('@')) return;
+                        Bus.findOneAndUpdate(search, update, () => {
+                            console.log('Updated ' + rego[0] + rego[1] + rego[2]);
+                        });
                     });
+
                 });
             });
         });

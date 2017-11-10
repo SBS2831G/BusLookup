@@ -7,7 +7,7 @@ for bus in buses
         div.bus-data
             div.data.deployment
                 span Deployment
-                span=bus.operator.depot.length ? (bus.operator.depot + ' ' + bus.operator.permService) : 'Unknown'
+                span=bus.operator.depot.length ? (bus.operator.depot.replace(/@/, '') + ' ' + bus.operator.permService) : 'Unknown'
             div.data.make
                 span Make
                 span=bus.busData.make

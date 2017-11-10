@@ -94,19 +94,19 @@ function main() {
                         }
 
                         if (!dbbus) {
-                            // console.log('New Bus: ' + regoPrefix + bus[0] + bus[1]);
+                            console.log('New Bus: ' + regoPrefix + bus[0] + bus[1]);
                             new Bus(busData).save(() => {
-                                // console.log('Saved ' + regoPrefix + bus[0] + bus[1])
+                                console.log('Saved ' + regoPrefix + bus[0] + bus[1])
                             });
                         } else {
-                            // console.log('Updating Bus: ' + regoPrefix + bus[0] + bus[1]);
+                            console.log('Updating Bus: ' + regoPrefix + bus[0] + bus[1]);
                             if (busData.operator.permService === '') {
                                 busData.operator.permService = dbbus.operator.permService;
                                 busData.operator.depot = dbbus.operator.depot;
                             }
                             dbbus.set(busData);
                             dbbus.save(() => {
-                                // console.log('Saved ' + regoPrefix + bus[0] + bus[1])
+                                console.log('Saved ' + regoPrefix + bus[0] + bus[1])
                             });
                         }
                     });

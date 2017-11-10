@@ -1,7 +1,7 @@
 var searchFunctions = {
     0: 'byRego',
     1: 'byService',
-    2: 'smartSearch'
+    2: 'advancedSearch'
 }
 
 function loadBuses() {

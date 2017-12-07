@@ -108,7 +108,7 @@
 107,L,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 108,J,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 109,G,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
-110,B,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
+110,B,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,Repainted to Lush Green,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 111,Z,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 112,X,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 113,T,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
@@ -133,10 +133,10 @@
 132,M,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 133,K,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,,,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
 134,H,Mercedes Benz,OC500LE,Gemilang,SMRT Buses,WEB63442021000264,30Sep2026,,,,2,ZF Ecomat II 6HP 592C,LAWO Benefit,Vogelsitze System 750/3,SMC Transit,Konvekta KL70T
-135,E,Yutong,ZK6126HGC,Yutong Integral,SMRT Buses,LZYTAGE6681024944,19Aug2026,Demonstrator: Failed,KJDEP,188/530*/941*/945*,Demo,ZF Ecomat II 6HP 504C,Tongda TD-05-R,Unknown,Unknown,Unknown
+135,E,Yutong,ZK6126HGC,Yutong Integral,SMRT Buses,LZYTAGE6681024944,19Aug2026,Demonstrator: Failed,KJDEP,188/530*/941*/945* (R),Demo,ZF Ecomat II 6HP 504C,Tongda TD-05-R,Unknown,Unknown,Unknown
 136,C,Mercedes Benz,Citaro,EvoBus,SMRT Buses,WEB62808323118999,09Mar2027,Demonstrator; Passed,,,Demo,ZF Ecomat IV 6HP 504C,Gorba Imotion,City Star Eco,Bode,Konvekta P700
-137,A,ZhongTong,LCK6121GHEV,Zhongtong Bus Integral Bodywork,SMRT Buses,LDYHCS2D8A0002091,02Jan2028,Demonstrator; Failed,AMDEP,854F,Demo,Eaton UltraShift F0-6406A-ASW,Mobitec MobiLED,Vogelsitze System 750/3,Unknown,ZhongTong
-138,Y,MAN,NL323F,MCV Evolution,SMRT Buses,WMAA22ZZ1A7000550,18Dec2027,Demonstrator; Passed,AMDEP,985,Demo,ZF 6A2000B,Hanover,Vogelsitze System 750/3,Ventura,Denso LD8i
+137,A,ZhongTong,LCK6121GHEV,Zhongtong Bus Integral Bodywork,SMRT Buses,LDYHCS2D8A0002091,02Jan2028,Demonstrator; Failed,AMDEP,854F (R),Demo,Eaton UltraShift F0-6406A-ASW,Mobitec MobiLED,Vogelsitze System 750/3,Unknown,ZhongTong
+138,Y,MAN,NL323F,MCV Evolution,SMRT Buses,WMAA22ZZ1A7000550,18Dec2027,Demonstrator; Passed,AMDEP,985 (R),Demo,ZF 6A2000B,Hanover,Vogelsitze System 750/3,Ventura,Denso LD8i
 139,U,Mercedes Benz,Citaro,EvoBus,SMRT Buses,WEB62808323120694,12Mar2028,,,,1,ZF EcoLife 6 AP 1200 B,LAWO Benefit,City Star Eco,Bode,Konvekta P800
 140,P,Mercedes Benz,Citaro,EvoBus,SMRT Buses,,,,,,1,ZF EcoLife 6 AP 1200 B,LAWO Benefit,City Star Eco,Bode,Konvekta P800
 141,L,Mercedes Benz,Citaro,EvoBus,SMRT Buses,,,,,,1,ZF EcoLife 6 AP 1200 B,LAWO Benefit,City Star Eco,Bode,Konvekta P800
@@ -386,7 +386,7 @@
 385,A,,,,,,,,,,,,,,,
 386,Y,,,,,,,,,,,,,,,
 387,U,,,,,,,,,,,,,,,
-388,S,MAN,NG363F,Gemilang,SMRT Buses,WMAA24ZZ5C7001358,01Apr2030,Demonstrator; Passed,@KJDEP,176,Demo,Voith DIWA 864.5,Gorba imotion,Vogelsitze System 750/3,Masats,Denso LD8i
+388,S,MAN,NG363F,Gemilang,SMRT Buses,WMAA24ZZ5C7001358,01Apr2030,Demonstrator; Passed,@KJDEP,971E/176*,Demo,Voith DIWA 864.5,Gorba imotion,Vogelsitze System 750/3,Masats,Denso LD8i
 389,P,,,,,,,,,,,,,,,
 390,J,,,,,,,,,,,,,,,
 391,G,,,,,,,,,,,,,,,

@@ -57,6 +57,9 @@ connect().then(() => {
 });
 
 function main() {
+
+    var remaining = 0;
+
     urls.forEach(url => {
         request(url, (err, res, body) => {
             var dom = new JSDOM(body);
@@ -76,7 +79,6 @@ function main() {
                     }
                     bus[4] = bus[4] || 'Unknown';
                     console.log('Updating ' + rego[0] + rego[1] + rego[2]);
-
                     var update = {
                         $set: {
                             'operator.depot': deployment[0],
@@ -85,13 +87,20 @@ function main() {
                         }
                     }
 
-                    Bus.findOne(search, (err, bus) => {
+                    Bus.find(search, (err, bus) => {
+                        bus = bus[0];
+                        if (!bus) {
+                            console.log('Skipped ' + rego[0] + rego[1] + rego[2])
+                            return;
+                        }
                         if (bus.operator.depot.startsWith('@')) return;
+                        remaining++;
                         Bus.findOneAndUpdate(search, update, () => {
                             console.log('Updated ' + rego[0] + rego[1] + rego[2]);
+                            remaining--;
+                            if (remaining === 0) process.exit(0);
                         });
                     });
-
                 });
             });
         });

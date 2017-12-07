@@ -140,9 +140,9 @@
 1138,T,Mercedes Benz,Citaro,EvoBus,SBS Transit,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1139,R,Mercedes Benz,Citaro,EvoBus,SBS Transit,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1140,K,Mercedes Benz,Citaro,EvoBus,SBS Transit,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
-1141,H,,,,,,,,,,,,,,,
-1142,E,,,,,,,,,,,,,,,
-1143,C,,,,,,,,,,,,,,,
+1141,H,Mercedes Benz,Citaro,EvoBus,SBS Transit,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
+1142,E,Mercedes Benz,Citaro,EvoBus,SMRT Buses,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
+1143,C,Mercedes Benz,Citaro,EvoBus,SMRT Buses,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1144,A,,,,,,,,,,,,,,,
 1145,Y,,,,,,,,,,,,,,,
 1146,U,,,,,,,,,,,,,,,
@@ -197,7 +197,7 @@
 1195,C,Mercedes Benz,Citaro,EvoBus,Go Ahead Singapore,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1196,A,Mercedes Benz,Citaro,EvoBus,Go Ahead Singapore,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1197,Y,Mercedes Benz,Citaro,EvoBus,SBS Transit,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
-1198,U,,,,,,,,,,,,,,,
+1198,U,Mercedes Benz,Citaro,EvoBus,SMRT Buses,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1199,S,Mercedes Benz,Citaro,EvoBus,Go Ahead Singapore,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1200,X,Mercedes Benz,Citaro,EvoBus,Go Ahead Singapore,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
 1201,T,Mercedes Benz,Citaro,EvoBus,Go Ahead Singapore,,,,,,3,Voith DIWA 854.5,LAWO HIGHLED,City Star Eco,Bode,Konvekta P800
@@ -1016,7 +1016,7 @@
 2014,K,,,,,,,,,,,,,,,
 2015,H,,,,,,,,,,,,,,,
 2016,E,,,,,,,,,,,,,,,
-2017,C,,,,,,,,,,,,,,,
+2017,C,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ5HF004923,29Nov2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 2018,A,,,,,,,,,,,,,,,
 2019,Y,,,,,,,,,,,,,,,
 2020,S,,,,,,,,,,,,,,,
@@ -4505,10 +4505,10 @@
 5503,X,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,YV3S4P927HA182927,10Oct2034,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Vogelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5504,T,,,,,,,,,,,,,,,
 5505,R,,,,,,,,,,,,,,,
-5506,M,,,,,,,,,,,,,,,
-5507,K,,,,,,,,,,,,,,,
-5508,H,,,,,,,,,,,,,,,
-5509,E,,,,,,,,,,,,,,,
+5506,M,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Vogelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5507,K,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Vogelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5508,H,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Vogelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
+5509,E,Volvo,B9TL,Wright Eclipse Gemini 2,SBS Transit,,,,,,4,ZF Ecolife 6AP 1403 B,LECIP,Vogelsitze System 750/3,SMC Transit,Eberspächer Sütrak R 488
 5510,A,,,,,,,,,,,,,,,
 5511,Y,,,,,,,,,,,,,,,
 5512,U,,,,,,,,,,,,,,,
@@ -4832,21 +4832,21 @@
 5830,B,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ9G7003492,10Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5831,Z,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ2G7003494,10Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5832,X,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ4G7003495,10Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
-5833,T,,,,,,,,,,,,,,,
+5833,T,MAN,ND323F,MAN Lion's City DD,SMRT Buses,WMAA95ZZ8G7003497,30Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5834,R,MAN,ND323F,MAN Lion's City DD,SMRT Buses,WMAA95ZZXG7003498,25Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5835,M,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ4G7003464,19Jul2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5836,K,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ2G7003480,25Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5837,H,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ6G7003482,25Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5838,E,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ5G7003487,25Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
-5839,C,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ1G7003499,25Oct2034,,,,,,,,,
+5839,C,MAN,ND323F,MAN Lion's City DD,SBS Transit,WMAA95ZZ1G7003499,25Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5840,Y,,,,,,,,,,,,,,,
-5841,U,,,,,,,,,,,,,,,
+5841,U,MAN,ND323F,MAN Lion's City DD,SMRT Buses,WMAA95ZZ8G7003502,30Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5842,S,,,,,,,,,,,,,,,
 5843,P,,,,,,,,,,,,,,,
 5844,L,,,,,,,,,,,,,,,
 5845,J,,,,,,,,,,,,,,,
 5846,G,,,,,,,,,,,,,,,
-5847,D,,,,,,,,,,,,,,,
+5847,D,MAN,ND323F,MAN Lion's City DD,SMRT Buses,WMAA95ZZ9G7003511,30Oct2034,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5848,B,,,,,,,,,,,,,,,
 5849,Z,,,,,,,,,,,,,,,
 5850,T,,,,,,,,,,,,,,,
@@ -4869,16 +4869,16 @@
 5867,X,,,,,,,,,,,,,,,
 5868,T,,,,,,,,,,,,,,,
 5869,R,,,,,,,,,,,,,,,
-5870,K,,,,,,,,,,,,,,,
-5871,H,,,,,,,,,,,,,,,
-5872,E,,,,,,,,,,,,,,,
-5873,C,,,,,,,,,,,,,,,
-5874,A,,,,,,,,,,,,,,,
-5875,Y,,,,,,,,,,,,,,,
-5876,U,,,,,,,,,,,,,,,
-5877,S,,,,,,,,,,,,,,,
-5878,P,,,,,,,,,,,,,,,
-5879,L,,,,,,,,,,,,,,,
+5870,K,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5871,H,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5872,E,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5873,C,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5874,A,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5875,Y,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5876,U,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5877,S,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5878,P,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
+5879,L,MAN,ND323F,MAN Lion's City DD,SMRT Buses,,,,,,3,ZF EcoLife 6 AP 2000 B,Mobitec MobiLED,Vogelsitze System 750/3,Masats,Denso
 5880,G,,,,,,,,,,,,,,,
 5881,D,,,,,,,,,,,,,,,
 5882,B,,,,,,,,,,,,,,,

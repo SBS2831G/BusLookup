@@ -93,15 +93,15 @@ function main() {
                     Bus.find(search, (err, bus) => {
                         bus = bus[0];
                         if (!bus) {
-                            console.log('Skipped ' + rego[0] + rego[1] + rego[2])
+                            console.log('Skipped ' + rego[0] + rego[1] + rego[2]);
+                            remaining--;
                             return;
                         }
                         if (bus.operator.depot.startsWith('@')) return;
                         remaining++;
                         Bus.findOneAndUpdate(search, update, () => {
                             console.log('Updated ' + rego[0] + rego[1] + rego[2]);
-                            remaining--;
-                            if (remaining === 0) process.exit(0);
+                            if (--remaining === 0) process.exit(0);
                         });
                     });
                 });

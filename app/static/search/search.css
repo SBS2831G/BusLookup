@@ -96,8 +96,8 @@ input[type="checkbox"].busHide:checked + .bus-data {
     display: block;
     background-color: #171717;
     display: flex;
-    justify-content: center;
     line-height: calc((100vw + 100vh) * 0.037);
+    align-items: center;
 }
 
 .data:nth-child(even) {
@@ -139,7 +139,7 @@ input[type="checkbox"].busHide:checked + .bus-data {
 
 .advert span:nth-child(2) {
     line-height: calc((100vw + 100vh) * 0.0246);
-    /*text-align: right;*/
+    text-align: right;
 }
 
 .smrt {

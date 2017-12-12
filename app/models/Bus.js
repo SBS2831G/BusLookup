@@ -26,7 +26,10 @@ var BusSchema = new Schema({
 	},
 	fleet: {
 		batch: String,
-		ad: String
+		ad: {
+			type: String,
+			default: 'N/A'
+		}
 	},
 	misc: {
 		chair: String,

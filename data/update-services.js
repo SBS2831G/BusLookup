@@ -72,7 +72,7 @@ function main() {
 
                     var rego = bus.children[0].textContent.trim().match(/([A-Z]+)(\d+)(\w)/).slice(1, 4);
                     var deployment = bus.children[1].textContent.trim().split(' ').concat(['Unknown']);
-                    var advert = !!bus.children[2] ? bus.children[2].textContent.trim() : 'No Advertisement';
+                    var advert = !!bus.children[2] ? bus.children[2].textContent.trim() : 'N/A';
 
                     var search = {
                         'registration.prefix': rego[0],

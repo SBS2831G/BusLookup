@@ -25,7 +25,8 @@ var BusSchema = new Schema({
 		permService: String
 	},
 	fleet: {
-		batch: String
+		batch: String,
+		ad: String
 	},
 	misc: {
 		chair: String,

@@ -69,8 +69,10 @@ function main() {
                 var buses = Array.from(table.querySelectorAll('tr')).slice(1)
 
                 buses.forEach(bus => {
+
                     var rego = bus.children[0].textContent.trim().match(/([A-Z]+)(\d+)(\w)/).slice(1, 4);
                     var deployment = bus.children[1].textContent.trim().split(' ').concat(['Unknown']);
+                    var advert = !!bus.children[2] ? bus.children[2].textContent.trim() : 'No Advertisement';
 
                     var search = {
                         'registration.prefix': rego[0],
@@ -83,7 +85,8 @@ function main() {
                         $set: {
                             'operator.depot': deployment[0],
                             'operator.permService': deployment[1].split('/')[0],
-                            'operator.crossOvers': deployment[1].split('/').slice(1).map(svc => svc.replace('*', ''))
+                            'operator.crossOvers': deployment[1].split('/').slice(1).map(svc => svc.replace('*', '')),
+                            'fleet.ad': advert
                         }
                     }
 

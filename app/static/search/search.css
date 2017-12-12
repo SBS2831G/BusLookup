@@ -97,7 +97,6 @@ input[type="checkbox"].busHide:checked + .bus-data {
     background-color: #171717;
     display: flex;
     justify-content: center;
-    height: calc((100vw + 100vh) * 0.04);
     line-height: calc((100vw + 100vh) * 0.037);
 }
 
@@ -117,6 +116,7 @@ input[type="checkbox"].busHide:checked + .bus-data {
     margin-left: auto;
     margin-right: calc((100vw + 100vh) * 0.01);
     font-size: calc((100vw + 100vh) * 0.016);
+    padding-left: calc((100vw + 100vh) * 0.023);
 }
 
 .dereg-div {
@@ -135,6 +135,11 @@ input[type="checkbox"].busHide:checked + .bus-data {
     font-size: calc((100vw + 100vh) * 0.01) !important;
     line-height: calc((100vw + 100vh) * 0.003);
     margin-right: 0 !important;
+}
+
+.advert span:nth-child(2) {
+    line-height: calc((100vw + 100vh) * 0.0246);
+    text-align: right;
 }
 
 .smrt {

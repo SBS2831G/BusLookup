@@ -20,6 +20,9 @@ for bus in buses
             div.data.batch
                 span Batch
                 span=bus.fleet.batch
+            div.data.advert
+                span Advertisement
+                span=bus.fleet.ad
             div.data.dereg
                 span Deregistration
                 if +bus.busData.deregDate === 0

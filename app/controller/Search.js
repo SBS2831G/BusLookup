@@ -26,13 +26,14 @@ function findAndReturn(req, res, rawJSON) {
                 bus.cssClass = operatorMap[bus.operator.operator];
 
                 var diff = new Date(bus.busData.deregDate - new Date());
-                if (+bus.busData.deregDate === 0) return bus;
-                if (bus.busData.deregDate - new Date() > 0) {
-                    bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate()) + ' days'
-                } else {
-                    bus.timeToDereg = (1969 - diff.getFullYear()) + ' years ' + (11 - diff.getUTCMonth()) + ' months ' + (31 - diff.getUTCDate()) + ' days ago'
-                    if (!bus.operator.permService.includes('(R)'))
-                    bus.operator.permService += ' (R)';
+                if (+bus.busData.deregDate !== 0) {
+                    if (bus.busData.deregDate - new Date() > 0) {
+                        bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate()) + ' days'
+                    } else {
+                        bus.timeToDereg = (1969 - diff.getFullYear()) + ' years ' + (11 - diff.getUTCMonth()) + ' months ' + (31 - diff.getUTCDate()) + ' days ago'
+                        if (!bus.operator.permService.includes('(R)'))
+                        bus.operator.permService += ' (R)';
+                    }
                 }
 
                 if (bus.operator.depot.startsWith('@')) {

@@ -93,6 +93,19 @@ function main() {
                             }
                         }
 
+                        if (bus[9].startsWith('@')) {
+                            var parts = bus[9].slice(1).split(' ');
+                            busData.operator.depot = parts[0];
+                            busData.operator.permService = parts[1];
+                        }
+
+                        if ((bus[17] || '') === '[BLANK]') {
+                            busData.fleet.ad = 'N/A';
+                        } else if ((bus[17] || '').length > 0) {
+                            busData.fleet.ad = '@' + bus[17];
+                        }
+
+
                         if (!dbbus) {
                             console.log('New Bus: ' + regoPrefix + bus[0] + bus[1]);
                             new Bus(busData).save(() => {

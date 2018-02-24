@@ -35,6 +35,19 @@ function findAndReturn(req, res, rawJSON) {
                     bus.operator.permService += ' (R)';
                 }
 
+
+                if (bus.operator.depot.startsWith('@')) {
+                    var parts = bus.operator.depot.slice(1).split(' ');
+                    bus.operator.depot = parts[0];
+                    bus.operator.permService = parts[1];
+                }
+
+                if (bus.fleet.ad === '[BLANK]') {
+                    bus.fleet.ad = 'N/A';
+                } else if (bus.fleet.ad.startsWith('@')) {
+                    bus.fleet.ad = bus.fleet.ad.slice(1);
+                }
+
                 return bus;
             }).sort((a, b) => a.registration.number - b.registration.number)
         });

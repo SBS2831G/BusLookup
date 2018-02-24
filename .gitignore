@@ -3,3 +3,4 @@
 *.pem
 config.js
 *.swp
+/data/

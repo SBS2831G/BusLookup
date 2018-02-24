@@ -3,4 +3,5 @@
 *.pem
 config.js
 *.swp
-/data/
+/data/spreadsheets
+

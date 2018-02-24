@@ -44,7 +44,9 @@ function findAndReturn(req, res, rawJSON) {
 
                 if (bus.fleet.ad.startsWith('@')) {
                     bus.fleet.ad = bus.fleet.ad.slice(1);
-                } else if (bus.fleet.ad === '[BLANK]') {
+                }
+
+                if (bus.fleet.ad === '[BLANK]') {
                     bus.fleet.ad = 'N/A';
                 }
 

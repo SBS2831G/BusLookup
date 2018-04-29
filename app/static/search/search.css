@@ -19,9 +19,8 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    text-align: center;
-    text-align-last: center;
     font-size: calc((100vw + 100vh) * 0.015);
+    padding-left: calc((100vw + 100vh) * 0.025 + 0.58em);
 }
 
 #magnifying-glass {

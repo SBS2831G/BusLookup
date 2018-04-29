@@ -36,8 +36,6 @@ function findAndReturn(req, res, rawJSON) {
                     }
                 }
 
-                console.log(bus.operator.depot)
-
                 if (bus.operator.depot.startsWith('@')) {
                     var parts = bus.operator.depot.slice(1).split(' ');
                     bus.operator.depot = parts[0];

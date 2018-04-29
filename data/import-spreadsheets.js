@@ -8,6 +8,7 @@ const Bus = require('../app/models/Bus');
 const fileTypes = {
     'TIBS': 'TIB',
     'SBST': 'SBS',
+	'SBSR': 'SBS-R',
     'SG': 'SG',
     'SMRT': 'SMB',
     'PA': 'PA',
@@ -15,7 +16,9 @@ const fileTypes = {
     'PZ': 'PZ',
     'RU': 'RU',
     'WC': 'WC',
-    'CB': 'CB'
+    'CB': 'CB',
+	'SH': 'SH',
+	'PH': 'PH'
 };
 
 mongoose.Promise = global.Promise;
@@ -62,24 +65,25 @@ function main() {
                                 make: bus[2],
                                 model: bus[3],
 
+                                livery: bus[8],
                                 bodywork: bus[4],
                                 chassis: bus[6],
                                 deregDate: bus[7] ? new Date(bus[7]) : new Date(0),
-                                gearbox: bus[12],
-                                edsModel: bus[13],
+                                gearbox: bus[13],
+                                edsModel: bus[14],
                             },
                             operator: {
                                 operator: bus[5],
-                                depot: bus[9],
-                                permService: bus[10]
+                                depot: bus[10],
+                                permService: bus[11]
                             }, fleet: {
-                                batch: bus[11],
+                                batch: bus[12],
                             },
                             misc: {
-                                chair: bus[14],
-                                door: bus[15],
-                                aircon: bus[16],
-                                notes: bus[8]
+                                chair: bus[15],
+                                door: bus[16],
+                                aircon: bus[17],
+                                notes: bus[9]
                             }
                         }
 
@@ -93,8 +97,9 @@ function main() {
                             }
                         }
 
-                        if ((bus[17] || '').length > 0) {
-                            busData.fleet.ad = '@' + bus[17];
+                        if ((bus[18] || '').length > 0) {
+                            console.log('Manual override for ' + regoPrefix + bus[0] + bus[1] + ' advertisement');
+                            busData.fleet.ad = '@' + bus[18];
                         }
 
                         if (!dbbus) {
@@ -105,7 +110,7 @@ function main() {
                         } else {
                             console.log('Updating Bus: ' + regoPrefix + bus[0] + bus[1]);
                             if (busData.operator.depot.startsWith('@'))
-                                console.log('Manual override for ' + regoPrefix + bus[0] + bus[1]);
+                                console.log('Manual override for ' + regoPrefix + bus[0] + bus[1] + ' svc');
 
                             if (busData.operator.depot === '' && dbbus.operator.depot.startsWith('@')) {
                                 console.log('Clearing manual override for ' + regoPrefix + bus[0] + bus[1]);

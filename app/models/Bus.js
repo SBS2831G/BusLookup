@@ -10,6 +10,7 @@ var BusSchema = new Schema({
 	busData: {
 		make: String,
 		model: String,
+		livery: String,
 		bodywork: String,
 		chassis: String,
 		deregDate: {

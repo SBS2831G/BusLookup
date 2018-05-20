@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#controller, #rear {
+    width: 50vw;
+    height: 60vh;
+}
+
+iframe {
+    border: 0;
+}
+
+#top-contents {
+    display: flex;
+}
+
+#front {
+    height: 40vh;
+}

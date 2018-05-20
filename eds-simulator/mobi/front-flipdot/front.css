@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+
+    background: #010101;
+    overflow-y: hidden;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#led-container {
+    display: grid;
+    background-color: #101010;
+}
+
+.led-segment {
+    display: flex;
+    background-color: #202020;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.led {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 1vw;
+
+    display: block;
+}
+
+.led-on {
+    background-color: #D6F606;
+}
+
+.led-off {
+    background-color: #303030;
+}

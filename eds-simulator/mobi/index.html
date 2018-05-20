@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='./mobi.css'></link>
+        <script src='./mobi.js'></script>
+        <meta name='theme-color' content='#010101' />
+        <meta name='apple-mobile-web-app-capable' content='yes' />
+        <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+        <meta http-equiv='refresh' />
+        <meta name='description' content='A Mobitec EDS Simulator' />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+
+
+        <title>Mobitec EDS Simulator</title>
+
+        <link rel='icon' type='image/png' href='../favicon.png' />
+        <link rel='shortcut icon' type='image/png' href='../favicon.png' />
+        <link rel='apple-touch-icon' type='image/png' href='../favicon.png' />
+        <link rel='manifest' href='./manifest.webmanifest' />
+    </head>
+    <body>
+        <div id='content'>
+            <div id='top-contents'>
+                <iframe id='controller' src='./controller/icu602.html' title='Controller'></iframe>
+                <!-- <div style='background: #3b3b3b; width: 50vw; height: 60vh; color: white;'>Coming soon...</div> -->
+                <!-- <iframe id='rear' src='/displays/mobi/rear/index.html'></iframe> -->
+            </div>
+            <iframe id='front' src='./front/index.html' title='Front EDS'></iframe>
+        </div>
+    </body>
+</html>

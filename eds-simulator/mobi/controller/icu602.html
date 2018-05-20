@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='./icu602.css'></link>
+        <script src='./icu602.js' async></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <div id='content'>
+            <div id='controller-body'>
+                <div id='controller-stripe'>
+                    <span id='mobitec-label'>mobitec</span>
+                    <span id='mobitec-model-label'>ICU 602</span>
+                    <div id='label-spacer'></div>
+                    <select id='eds-selector' class='selector'>
+                        <option selected>MobiLED</option>
+                        <option>MobiDOT</option>
+                    </select>
+                    <select id='operator-selector' class='selector'>
+                        <option selected>SMRT</option>
+                        <option>SBST</option>
+                        <option>TTSG</option>
+                    </select>
+                </div>
+                <div id='controller-content'>
+                    <div id='controller-left'>
+                        <div id='controller-screen-container'>
+                            <div id='screen-spacer'></div>
+                            <div id='controller-screen'>
+                                <iframe id='controller-iframe' src='./icu602-inner.html' title='Controller Screen'>
+                                </iframe>
+                            </div>
+                        </div>
+                        <div id='function-buttons'>
+                            <div id='button-home' class='function-button'><img id='home-button-icon' src='../resources/house.svg' alt='home'></img></div>
+                            <div id='button-f1' class='function-button'><span>F1</span></div>
+                            <div id='button-f2' class='function-button'><span>F2</span></div>
+                            <div id='button-f3' class='function-button'><span>F3</span></div>
+                            <div id='button-f4' class='function-button'><span>F4</span></div>
+                            <div id='button-f5' class='function-button'><span>F5</span></div>
+                        </div>
+                    </div>
+                    <div id='controller-right'>
+                        <div id='numberpad'>
+                            <div id='numberpad-main'>
+                                <div id='button-1'><span>1</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+                                <div id='button-2'><span>2</span><span>&nbsp;ABC</span></div>
+                                <div id='button-3'><span>3</span><span>&nbsp;DEF</span></div>
+                                <div id='button-4'><span>4</span><span>&nbsp;GHI</span></div>
+                                <div id='button-5'><span>5</span><span>&nbsp;JKL</span></div>
+                                <div id='button-6'><span>6</span><span>&nbsp;MNO</span></div>
+                                <div id='button-7'><span>7</span><span>PQRS</span></div>
+                                <div id='button-8'><span>8</span><span>&nbsp;TUV</span></div>
+                                <div id='button-9'><span>9</span><span>WXYZ</span></div>
+                            </div>
+                            <div id='button-0'><span>0</span><span>&#9141;</span></div>
+                        </div>
+                        <div id='selection-pad'>
+                            <div id='direction-pad'>
+                                <div></div><div id='button-up'>&uarr;</div><div></div>
+                                <div id='button-left'>&larr;</div><div></div><div id='button-right'>&rarr;</div>
+                                <div></div><div id='button-down'>&darr;</div><div></div>
+                            </div>
+                            <div id='yesno-pad'>
+                                <div id='button-no'><img id='no-button-icon' src='../resources/cross.svg' alt='no'></img></div>
+                                <div id='button-yes'><img id='yes-button-icon' src='../resources/tick.svg' alt='yes'></img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

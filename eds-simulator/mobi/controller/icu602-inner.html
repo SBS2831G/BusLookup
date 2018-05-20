@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='./icu602-inner.css'></link>
+        <script src='./icu602-inner.js'></script>
+        <script src='../eds-renderer.js' async></script>
+        <script src='./icu-data/fonts.js' async></script>
+        <script src='./icu-data/smrt.js' async></script>
+        <script src='./icu-data/ttsg.js' async></script>
+        <script src='./icu-data/sbst.js' async></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <div id='content'>
+            <div id='screen-home' style='display: none;'>
+                <div id='output-preview-container'>
+                    <div id='output-preview'>
+                        <canvas id='preview-canvas' width='576' height='64'></canvas>
+                    </div>
+                    <div id='output-info'>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div id='screen-dest' style='display: none;'>
+                <div class='table-labels' id='label-dest'>
+                    <span>Dest</span>
+                    <span>Line no</span>
+                    <span>Destination</span>
+                </div>
+                <div class='dest-table' id='table-dest'>
+                </div>
+            </div>
+            <div id='screen-extra' style='display: none;'>
+                <div class='table-labels' id='label-extra'>
+                    <span>Dest</span>
+                    <span>Line no</span>
+                    <span>Destination</span>
+                </div>
+                <div class='dest-table' id='table-extra'>
+                </div>
+            </div>
+        </div>
+        <div id='function-label-row'>
+        </div>
+    </body>
+</html>

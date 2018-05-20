@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+
+    user-select: none;
+    -moz-user-select: none;
+}
+
+#content {
+    width: 100vw;
+    height: 75vh;
+}
+
+#screen-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 80vh;
+}
+
+#function-label-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#function-label-row > div {
+    margin-right: 1vw;
+    width: 19vw;
+    height: 20vh;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000000;
+    color: #3b9cd2;
+
+    font-size: 18vh;
+}
+
+#output-preview-container {
+    height: 75vh;
+
+    display: flex;
+    margin-top: 8vh;
+}
+
+#output-preview {
+    display: inline-flex;
+
+    width: 50vw;
+    height: 7vw;
+
+    margin-left: 10vw;
+
+    border: 0.5vw solid #000000;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#preview-canvas {
+    width: 50vw;
+    height: 7vw;
+}
+
+#output-info {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 13vw;
+    font-size: 3vw;
+}
+
+.table-labels {
+    font-size: 2.4vw;
+    height: 2.6vw;
+
+    display: flex;
+}
+
+.table-labels > span {
+    display: inline-block;
+    width: 15vw;
+}
+
+.dest-table {
+    height: calc(59vh - 2.6vw);
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+    border: 2vh solid black;
+}
+
+.dest-table-item, .extra-table-item {
+    font-size: calc((65vh - 2.6vw - 4vh) / 3.6);
+    height: calc((65vh - 2.6vw - 4vh) / 3);
+    line-height: calc((65vh - 2.6vw - 4vh) / 3);
+}
+
+.dest-table-item > span, .extra-table-item > span {
+    margin-left: 1vw;
+    display: inline-block;
+    width: 14vw;
+}
+
+.dest-table-item > span:nth-child(3), .extra-table-item > span:nth-child(3) {
+    width: 68vw;
+}
+
+.selected-row {
+    background: black;
+    color: #3b9cd2;
+}

@@ -9,6 +9,7 @@ module.exports = app => {
 	}));
 
 	app.use('/static', express.static(path.join(__dirname, '/static')));
+	app.use('/eds-simulator', express.static(path.join(__dirname, '../eds-simulator')));
 
 	app.use(bodyParser.urlencoded({ extended: true }));
     app.use(bodyParser.json());

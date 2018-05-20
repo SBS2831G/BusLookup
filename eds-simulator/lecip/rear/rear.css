@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+
+    background: #010101;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#led-container {
+    width: 72vw;
+
+    display: grid;
+
+    grid-template-columns: repeat(40, 1.8vw);
+    grid-row-gap: .2vw;
+
+    grid-auto-rows: 1.8vw;
+
+    background-color: #101010;
+}
+
+.led-segment {
+    display: flex;
+    background-color: #202020;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.led {
+    border-radius: 1vw;
+
+    display: block;
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.led-on {
+    background-color: orange;
+}
+
+.led-off {
+    background-color: #303030;
+}

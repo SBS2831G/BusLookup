@@ -12,7 +12,7 @@ function omit(obj, omitKey) {
 var operatorMap = {
     'Go Ahead Singapore': 'gas',
     'SBS Transit': 'sbst',
-    'Super Bus Services': 'sbs',
+    'Singapore Bus Services': 'sbs',
     'Tower Transit Singapore': 'tts',
     'LTA Storage': 'lta',
     'Trans Island Buses': 'tibs',

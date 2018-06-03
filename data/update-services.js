@@ -23,9 +23,11 @@ var urls = [
         'https://sgwiki.com/wiki/MAN_NL323F_(Batch_1)',
         'https://sgwiki.com/wiki/MAN_NL323F_(Batch_2)',
         'https://sgwiki.com/wiki/MAN_NL323F_(Batch_3)',
+        'https://sgwiki.com/wiki/MAN_NL323F_(Batch_4)',
         'https://sgwiki.com/wiki/MAN_ND323F_(Batch_1)',
         'https://sgwiki.com/wiki/MAN_ND323F_(Batch_2)',
         'https://sgwiki.com/wiki/MAN_ND323F_(Batch_3)',
+        'https://sgwiki.com/wiki/MAN_ND323F_(Batch_4)',
         'https://sgwiki.com/wiki/Scania_K230UB_(Euro_IV_Batch_1)',
         'https://sgwiki.com/wiki/Scania_K230UB_(Euro_IV_Batch_2)',
         'https://sgwiki.com/wiki/Scania_K230UB_(Euro_V_Batch_1)',
@@ -34,7 +36,7 @@ var urls = [
         'https://sgwiki.com/wiki/MAN_NG363F',
         'https://sgwiki.com/wiki/Mercedes-Benz_OC500LE',
         'https://sgwiki.com/wiki/Mercedes-Benz_O405G_(Hispano_Habit)',
-        'https://sgwiki.com/wiki/Mercedes-Benz_O405G_(Volgren)'
+        'https://sgwiki.com/wiki/Mercedes-Benz_O405G_(Volgren)',
 ];
 
 mongoose.Promise = global.Promise;

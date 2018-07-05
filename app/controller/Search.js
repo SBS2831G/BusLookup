@@ -25,8 +25,11 @@ function findAndReturn(req, res, rawJSON) {
             buses: buses.map(bus => omit(bus._doc, '_id')).map(bus => {
                 bus.cssClass = operatorMap[bus.operator.operator];
 
-                var diff = new Date(bus.busData.deregDate - new Date());
                 if (+bus.busData.deregDate !== 0) {
+                    bus.busData.deregDate = new Date(bus.busData.deregDate.toString().replace('+0000 (UTC)', '+0800'))
+
+                    var diff = new Date(bus.busData.deregDate - new Date());
+
                     if (bus.busData.deregDate - new Date() > 0) {
                         bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate()) + ' days'
                     } else {

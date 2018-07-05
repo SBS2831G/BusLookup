@@ -1,4 +1,5 @@
 const Bus = require('../models/Bus');
+const config = require('../../config');
 
 function omit(obj, omitKey) {
   return Object.keys(obj).reduce((result, key) => {
@@ -26,14 +27,15 @@ function findAndReturn(req, res, rawJSON) {
                 bus.cssClass = operatorMap[bus.operator.operator];
 
                 if (+bus.busData.deregDate !== 0) {
-                    bus.busData.deregDate = new Date(bus.busData.deregDate.toString().replace('+0000 (UTC)', '+0800'))
+                    if (config.adjTime)
+                        bus.busData.deregDate = new Date(bus.busData.deregDate.toString().replace('+0000 (UTC)', '-0800'));
 
                     var diff = new Date(bus.busData.deregDate - new Date());
 
                     if (bus.busData.deregDate - new Date() > 0) {
-                        bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getUTCMonth()) + ' months ' + (diff.getUTCDate()) + ' days'
+                        bus.timeToDereg = (diff.getFullYear() - 1970) + ' years ' + (diff.getMonth()) + ' months ' + (diff.getDate()) + ' days'
                     } else {
-                        bus.timeToDereg = (1969 - diff.getFullYear()) + ' years ' + (11 - diff.getUTCMonth()) + ' months ' + (31 - diff.getUTCDate()) + ' days ago'
+                        bus.timeToDereg = (1969 - diff.getFullYear()) + ' years ' + (11 - diff.getMonth()) + ' months ' + (31 - diff.getDate()) + ' days ago'
                         if (!bus.operator.permService.includes('(R)'))
                         bus.operator.permService += ' (R)';
                     }

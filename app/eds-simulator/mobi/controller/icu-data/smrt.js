@@ -54,12 +54,10 @@ EDSTemplateSet['SMRT'] = {
                 currentRoadFont: '$scrolls[]font',
                 destination: '$destination.text',
                 destinationFont: '$destination.font',
-                via: '  via',
-                viaFont: 'tall'
             },
             font: '$scrolls[]font',
             active: '$scrolls[]showDest{true}',
-            format: ['<destination,destinationFont,9><via,viaFont,9>', '<currentRoad,currentRoadFont,0>'],
+            format: ['<destination,destinationFont,9>', '<currentRoad,currentRoadFont,0>'],
             yPositions: [9, 0],
             spaceWidth: 1,
             align: 'centre-width[0]'
@@ -651,7 +649,7 @@ EDSDataSet['SMRT'] = {
         serviceNumber: '190',
         serviceFont: 'full',
         destination: {
-            text: 'KAMPONG BAHRU TER',
+            text: 'KAMPONG BAHRU TER via',
             font: 'tall'
         },
         scrolls: [
@@ -662,14 +660,6 @@ EDSDataSet['SMRT'] = {
             },
             {
                 text: 'BT PANJANG RD',
-                font: 'thin'
-            },
-            {
-                text: '??',
-                font: 'thin'
-            },
-            {
-                text: '??',
                 font: 'thin'
             },
             {
@@ -686,6 +676,42 @@ EDSDataSet['SMRT'] = {
             },
             {
                 text: 'CHINATOWN',
+                font: 'thin'
+            }
+        ]
+    },
+    1902: {
+        renderType: '190-variant',
+        serviceNumber: '190',
+        serviceFont: 'full',
+        destination: {
+            text: 'CHOA CHU KANG via',
+            font: 'thin'
+        },
+        scrolls: [
+            {
+                text: ['CHOA CHU KANG', 'INT / MRT / LRT'],
+                font: 'thick',
+                showDest: false
+            },
+            {
+                text: 'HILL STREET',
+                font: 'thin'
+            },
+            {
+                text: 'SOMERSET ROAD',
+                font: 'thin'
+            },
+            {
+                text: 'SCOTTS ROAD',
+                font: 'thin'
+            },
+            {
+                text: 'STEVENS ROAD',
+                font: 'thin'
+            },
+            {
+                text: 'BUKIT PANJANG RD',
                 font: 'thin'
             }
         ]
@@ -728,55 +754,6 @@ EDSExtraMessageSet['SMRT'] = {
         font: 'full',
         align: 'centre',
         yPos: 0
-    },
-    1129: {
-        text: 'IDRIVEBUS',
-        font: 'big',
-        align: 'centre',
-        yPos: 1,
-        hidden: true
-    },
-    2799: {
-        text: 'MOFO LIM KOPI',
-        font: 'big',
-        align: 'centre',
-        yPos: 1,
-        hidden: true
-    },
-    2827: {
-        text: 'POWERED BY FATS !!',
-        font: 'big',
-        align: 'centre',
-        yPos: 1,
-        hidden: true
-    },
-    3449: {
-        text: ['CHEONG CHEONG CHEONG!!!', 'LAST BUS ALREADY!!!'],
-        font: 'thin',
-        align: 'centre',
-        yPos: [9, 0],
-        hidden: true
-    },
-    8037: {
-        text: 'I SPILL KOPI !!',
-        font: 'big',
-        align: 'centre',
-        yPos: 1,
-        hidden: true
-    },
-    16675: {
-        text: ['RUN RUN RUN!!!', 'LAST BUS ALREADY!!!'],
-        font: 'thick',
-        align: 'centre',
-        yPos: [9, 0],
-        hidden: true
-    },
-    63122: {
-        text: 'I AM GOYANG KING!!',
-        font: 'big',
-        align: 'centre',
-        yPos: 1,
-        hidden: true
     }
 }
 

@@ -6,7 +6,7 @@ const mongoose = require('mongoose'),
 const Bus = require('../app/models/Bus');
 
 var urls = [
-		'https://sgwiki.com/wiki/Volvo_B8L_(Wright_Eclipse_Gemini_3)',
+//		'https://sgwiki.com/wiki/Volvo_B8L_(Wright_Eclipse_Gemini_3)',
         'https://sgwiki.com/wiki/Volvo_B9TL_(CDGE)',
         'https://sgwiki.com/wiki/Volvo_B9TL_(Wright_Eclipse_Gemini_2)_(Batch_1)',
         'https://sgwiki.com/wiki/Volvo_B9TL_(Wright_Eclipse_Gemini_2)_(Batch_2)',

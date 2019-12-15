@@ -97,6 +97,14 @@ function main() {
                             }
                         }
 
+                        if (bus[8].includes('Impounded')) {
+                            busData.operator.permService += ' (I)';
+                        }
+
+                        if (bus[8].includes('Unknown')) {
+                            busData.operator.permService += ' (U)';
+                        }
+
                         if ((bus[18] || '').length > 0) {
                             console.log('Manual override for ' + regoPrefix + bus[0] + bus[1] + ' advertisement');
                             busData.fleet.ad = '@' + bus[18];
